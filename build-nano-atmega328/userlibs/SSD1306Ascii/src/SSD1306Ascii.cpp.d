@@ -1,4 +1,6 @@
-build-nano-atmega328/nano_blink.ino.o: nano_blink.ino \
+build-nano-atmega328/userlibs/SSD1306Ascii/src/SSD1306Ascii.cpp.o: \
+ /home/gerrit/Arduino/libraries/SSD1306Ascii/src/SSD1306Ascii.cpp \
+ /home/gerrit/Arduino/libraries/SSD1306Ascii/src/SSD1306Ascii.h \
  /usr/share/arduino/hardware/arduino/avr/cores/arduino/Arduino.h \
  /usr/share/arduino/hardware/arduino/avr/cores/arduino/binary.h \
  /usr/share/arduino/hardware/arduino/avr/cores/arduino/WCharacter.h \
@@ -11,10 +13,6 @@ build-nano-atmega328/nano_blink.ino.o: nano_blink.ino \
  /usr/share/arduino/hardware/arduino/avr/cores/arduino/Arduino.h \
  /usr/share/arduino/hardware/arduino/avr/variants/eightanaloginputs/pins_arduino.h \
  /usr/share/arduino/hardware/arduino/avr/variants/eightanaloginputs/../standard/pins_arduino.h \
- /usr/share/arduino/hardware/arduino/avr/libraries/SPI/SPI.h \
- /usr/share/arduino/hardware/arduino/avr/libraries/Wire/Wire.h \
- /usr/share/arduino/hardware/arduino/avr/cores/arduino/Stream.h \
- /home/gerrit/Arduino/libraries/SSD1306Ascii/src/SSD1306Ascii.h \
  /home/gerrit/Arduino/libraries/SSD1306Ascii/src/SSD1306init.h \
  /home/gerrit/Arduino/libraries/SSD1306Ascii/src/fonts/allFonts.h \
  /home/gerrit/Arduino/libraries/SSD1306Ascii/src/fonts/Adafruit5x7.h \
@@ -62,12 +60,4 @@ build-nano-atmega328/nano_blink.ino.o: nano_blink.ino \
  /home/gerrit/Arduino/libraries/SSD1306Ascii/src/fonts/newbasic3x5.h \
  /home/gerrit/Arduino/libraries/SSD1306Ascii/src/fonts/font8x8.h \
  /home/gerrit/Arduino/libraries/SSD1306Ascii/src/fonts/cp437font8x8.h \
- /home/gerrit/Arduino/libraries/SSD1306Ascii/src/fonts/utf8font10x16.h \
- /home/gerrit/Arduino/libraries/SSD1306Ascii/src/SSD1306AsciiWire.h \
- /home/gerrit/Arduino/libraries/SSD1306Ascii/src/SSD1306Ascii.h \
- /home/gerrit/Arduino/libraries/RTCLib_by_NeiroN/RTClib.h \
- /home/gerrit/Arduino/libraries/OneWire/OneWire.h \
- /home/gerrit/Arduino/libraries/DallasTemperature/DallasTemperature.h \
- /usr/share/arduino/hardware/arduino/avr/libraries/EEPROM/EEPROM.h \
- /home/gerrit/Arduino/libraries/EEPROMAnything/EEPROMAnything.h \
- /home/gerrit/Arduino/libraries/Bounce2/Bounce2.h
+ /home/gerrit/Arduino/libraries/SSD1306Ascii/src/fonts/utf8font10x16.h

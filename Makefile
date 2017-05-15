@@ -1,6 +1,6 @@
 BOARD_TAG = nano
 BOARD_SUB = atmega328
-ARDUINO_LIBS = SPI Wire Adafruit_GFX_Library Adafruit_SSD1306 RTCLib_by_NeiroN OneWire DallasTemperature EEPROM EEPROMAnything Bounce2
+ARDUINO_LIBS = SPI Wire SSD1306Ascii RTCLib_by_NeiroN OneWire DallasTemperature EEPROM EEPROMAnything Bounce2 
 MONITOR_PORT = /dev/ttyUSB0
 include /usr/share/arduino/Arduino.mk
 AVR_TOOLS_DIR=/usr
